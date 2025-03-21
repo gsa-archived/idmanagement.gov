@@ -108,8 +108,11 @@ playbooks:
     href: /playbooks/altauthn/
   - text: ICAM Governance Framework Version 1.0
     href: /docs/playbook-identity-governance-framework.pdf
-  - text: Identity Lifecycle Management Playbook
-    href: /playbooks/ilm/ 
+  # Playbook Archived 
+  # Date: 03/21/2025
+  # Reason: by request of Vanessa Arias
+  # - text: Identity Lifecycle Management Playbook
+  #   href: /playbooks/ilm/ 
   - text: Privileged Identity Playbook
     href: /playbooks/pam/ 
 
