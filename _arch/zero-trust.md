@@ -36,7 +36,7 @@ A **Phishing-resistant authenticator** is a form of authentication that is not s
 
 **User authorization** decides whether to grant access to a user or machine account following authentication. Authorization to resources can be fine-grained to help achieve attribute-based access vs. traditional role-based access. FICAM has resources to help agencies with user authorization management activities as part of their ICAM solutions. Agencies can get started by leveraging the [Cloud Identity Playbook]({{site.baseurl}}/playbooks/cloud/){:target="_blank"}{:rel="noopener noreferrer"} as a starting point. This playbook provides practical guidance to assist federal agencies in starting or further expanding their use of workforce identity, credential, and access management services in a cloud operating model.
 
-**Identity lifecycle management** encompasses creating, identity proofing, vetting, provisioning, aggregating, maintaining, and deactivating digital identities on an agency’s enterprise ICAM systems. The FICAM team provides a detailed [Identity Lifecycle Management Playbook]({{site.baseurl}}/playbooks/ilm/){:target="_blank"}{:rel="noopener noreferrer"} to help shift the focus from managing the access based on credentials to managing the entire lifecycle of identities.
+<!-- **Identity lifecycle management** encompasses creating, identity proofing, vetting, provisioning, aggregating, maintaining, and deactivating digital identities on an agency’s enterprise ICAM systems.  The FICAM team provides a detailed [Identity Lifecycle Management Playbook]({{site.baseurl}}/playbooks/ilm/){:target="_blank"}{:rel="noopener noreferrer"} to help shift the focus from managing the access based on credentials to managing the entire lifecycle of identities.-->
 
  
 ## FICAM alignment to CISA Zero Trust Maturity Model
@@ -70,7 +70,7 @@ The [CISA Zero Trust Maturity Model](https://www.cisa.gov/sites/default/files/20
       <td>
           <p>
           <ul>
-            <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li>
+            <!-- <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li> -->
             <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.cisa.gov/resources-tools/programs/continuous-diagnostics-and-mitigation-cdm-program/program-approved-products-list-apl" target="_blank" rel="noopener noreferrer">DHS CDM Master User Record Architecture</a></li>
             <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/pam/" target="_blank" rel="noopener noreferrer">Privileged Identity Playbook</a></li>
           </ul>
@@ -104,7 +104,7 @@ The [CISA Zero Trust Maturity Model](https://www.cisa.gov/sites/default/files/20
       <td>
         <ul>
           <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/sso/" target="_blank" rel="noopener noreferrer">SSO Playbook</a></li>
-          <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li>
+          <!-- <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li> -->
           <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/pam/" target="_blank" rel="noopener noreferrer">Privileged Identity Playbook</a></li>
           <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.nccoe.nist.gov/financial-services/privileged-account-management" target="_blank" rel="noopener noreferrer">NIST NCCOE Privileged Account Management for the Financial Services Sector</a></li>
         </ul>
@@ -116,7 +116,7 @@ The [CISA Zero Trust Maturity Model](https://www.cisa.gov/sites/default/files/20
       <td>
         <ul>
           <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/sso/" target="_blank" rel="noopener noreferrer">SSO Playbook</a></li>
-          <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li>
+          <!-- <li><a class="usa-link usa-link--external" class="usa-link" href="https://www.idmanagement.gov/playbooks/ilm/" target="_blank" rel="noopener noreferrer">ILM Playbook</a></li> -->
         </ul>
       </td>
     </tr>

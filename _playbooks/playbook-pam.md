@@ -338,7 +338,7 @@ Identity management is how an agency collects, verifies, and manages attributes 
    2. Disaster recovery and business continuity procedures.
    3. Current and pending architecture changes, system characteristics, and hardware and software components.
 4. **Enforce least privilege** to only allow privileged users access to what is needed to perform their duty. If possible, implement just-in-time provisioning or account password check-out capabilities. Additional actions may include creating custom administrator accounts scoped for the role, like an application administrator versus a global administrator, and role rotation.
-5. **Manage administrator lifecycle by** implementing and following lifecycle management practices in the [Identity Lifecycle Management playbook]({{site.baseurl}}/playbooks/ilm/).
+<!-- 5. **Manage administrator lifecycle by** implementing and following lifecycle management practices in the [Identity Lifecycle Management playbook]({{site.baseurl}}/playbooks/ilm/).-->
    1. Integrate with an agency identity directory to reduce the potential of creating an orphaned privileged identity. In DHS CDM, this directory is called a master user record.
    2. Provision access when needed.
    3. Conduct access reviews every 30 days or less based on a risk determination and modify privileges as needed.
