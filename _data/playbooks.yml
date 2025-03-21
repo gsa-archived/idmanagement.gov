@@ -66,13 +66,17 @@
   header: "/assets/playbooks/headers/playbook_07.webp"
   target: _self
 
-- title: Identity Lifecycle Management Playbook
-  type: Webpage
-  pubdate: 2024-18
-  description: This playbook can aid agencies in understanding how to shift the focus from managing the lifecycle of credentials to the lifecycle of identities outlined in section III of OMB Memo 19-17.
-  url: "/playbooks/ilm/"
-  header: "/assets/playbooks/headers/playbook_08.webp"
-  target: _self
+# Archived Playbook (CJB)
+# Date Archived: 03/20/2025
+# Reason: Requested to be archived by Vanessa Arias
+#
+# - title: Identity Lifecycle Management Playbook
+#   type: Webpage
+#   pubdate: 2024-18
+#   description: This playbook can aid agencies in understanding how to shift the focus from managing the lifecycle of credentials to the lifecycle of identities outlined in section III of OMB Memo 19-17.
+#   url: "/playbooks/ilm/"
+#   header: "/assets/playbooks/headers/playbook_08.webp"
+#   target: _self
 
 - title: Privileged Identity Playbook
   type: Webpage
