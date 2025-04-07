@@ -99,7 +99,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of  Approved 13.01 Cloud Topology PACS Products -->
 
-**NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively.
+<!-- **NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively. -->
+Note: The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
 
 ## Approved 13.02 Topology PACS Products
 <!-- Start of Approved 13.02 Topology PACS Products -->
