@@ -34,15 +34,15 @@ If you think this page is missing something, [contact us]({{site.baseurl}}/conta
 
 Visit the [Buy Page]({{site.baseurl}}/acquisition-professionals/) to view FICAM products, services and purchasing guidance.
 
-## Approved Products - Physical Access Control Systems
+## Approved Products - 13.01 and 13.02 Topology
 
-The Physical Access Control System (PACS) products listed under the “Approved” section below have met the security and functional requirements set by GSA’s FIPS 201 Evaluation Program, and have been approved for use by the Federal Government. Note that the Approved PACS Products below are grouped by either 13.01 or 13.02 topologies:
+The Physical Access Control System (PACS) products listed under the “Approved” section below have met the security and functional requirements set by GSA’s FIPS 201 Evaluation Program, and have been approved for use by the Federal Government. The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP. Note that the Approved PACS Products below are grouped by either 13.01 or 13.02 topologies and indicated as Cloud infrastructure where appropriate:
 
-- [13.01 Topology](#approved-1301-topology-pacs-products) – end-to-end systems which integrate components from three categories (PACS Infrastructure; Validation System; and PIV Reader) together through software (SDK or API).
-- [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems which integrate the first two components (PACS Infrastructure; Validation System) into a “PACS Validation Infrastructure,” which is then integrated with the third component category (PIV Reader).
+- [13.01 Topology](#approved-1301-topology-pacs-products) – end-to-end systems that integrate components from three categories: PACS Infrastructure, Validation System, and PIV PACS Reader.
+- [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems that integrate the first two components (PACS Infrastructure and Validation System) into a PACS Validation Infrastructure, which is then integrated with the third component category (PIV PACS Reader).
 
 ## Approved 13.01 Topology PACS Products
-
+<!-- Start of Approved 13.01 Topology PACS Products -->
 <table class="usa-table usa-table--borderless">
   <caption>
     Approved 13.01 Topology PACS Products List
@@ -67,6 +67,35 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Approved 13.01 Topology PACS Products -->
+
+## Approved 13.01 Cloud Topology PACS Products
+<!-- Start of  Approved 13.01 Cloud Topology PACS Products -->
+<table class="usa-table usa-table--borderless">
+  <caption>
+    Approved 13.01 Cloud Topology PACS Products
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">PACS Infrastructure</th>
+      <th data-sortable scope="col" role="columnheader">PACS APL #</th>
+      <th data-sortable scope="col" role="columnheader">Validation System</th>
+      <th data-sortable scope="col" role="columnheader">Validation APL #</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% for guide in site.data.fips201pacs1301cloud %}
+          <tr>
+            <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
+            <td  data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
+            <th scope="row" role="rowheader"><a href="{{ guide.valurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.validation}}</a></th>
+             <td data-sort-value="{{ guide.valapl }}">{{ guide.valapl }}</td>
+          </tr>
+      {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of  Approved 13.01 Cloud Topology PACS Products -->
 
 **NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively.
 
