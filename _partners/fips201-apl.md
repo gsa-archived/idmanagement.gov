@@ -140,7 +140,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
   </thead>
   <tbody>
       {% assign pacs1302cloudtopology = site.data.fips201pacs1302cloud | sort: "infraapl" %}
-      {% for pacs1302cloud in pacs1302topology %}
+      {% for pacs1302cloud in pacs1302cloudtopology %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ pacs1302cloud.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1302cloud.infrastructure }}</a></th>
             <td data-sort-value="{{ pacs1302cloud.infraapl }}">{{ pacs1302cloud.infraapl }}</td>
