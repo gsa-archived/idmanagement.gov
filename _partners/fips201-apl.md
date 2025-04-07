@@ -56,7 +56,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for pacs1301topology = site.data.fips201pacs1301 | sort: "infrastructure" %}
+      {% assign pacs1301topology = site.data.fips201pacs1301 | sort: "infrastructure" %}
       {% for pacs1301top in pacs1301topology %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ pacs1301top.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301top.infrastructure }}</a></th>
@@ -85,7 +85,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for pacs1301cloudtopology = site.data.fips201pacs1301cloud | sort: "infrastructure" %}
+      {% assign pacs1301cloudtopology = site.data.fips201pacs1301cloud | sort: "infrastructure" %}
       {% for pacs1301cloud in pacs1301cloudtopology %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ pacs1301cloud.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301cloud.infrastructure }}</a></th>
@@ -114,7 +114,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for pacs1302topology = site.data.fips201pacs1302 | sort: "infraapl" %}
+      {% assign pacs1302topology = site.data.fips201pacs1302 | sort: "infraapl" %}
       {% for pacs1302top in pacs1302topology %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ pacs1302top.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1302top.infrastructure }}</a></th>
@@ -139,7 +139,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for pacs1302cloudtopology = site.data.fips201pacs1302cloud | sort: "infraapl" %}
+      {% assign pacs1302cloudtopology = site.data.fips201pacs1302cloud | sort: "infraapl" %}
       {% for pacs1302cloud in pacs1302topology %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ pacs1302cloud.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1302cloud.infrastructure }}</a></th>
