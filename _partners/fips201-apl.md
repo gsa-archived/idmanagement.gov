@@ -152,9 +152,13 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of  Approved 13.02 Cloud Topology PACS Products -->
 
+Note: The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
+
+
 ## PACS Readers
 
 **NOTE:**  PACS readers are approved as part of a complete solution.  The list below represents the readers that have been tested and verified as part of a solution (e.g., Infrastructure + Validation Engine + Reader).  Each of the linked approval letters lists the approved reader types, associated APL#, and tested PACS solution.
+
 - [Allegion Schlage Smart Card Readers]({{site.baseurl}}/docs/apl-10128-10129-10133-allegion.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [ASSA ABLOY integrated Signo Readers]({{site.baseurl}}/docs/apl-10138-10141-ASSA.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [ASSA ABLOY integrated pivCLASS Readers]({{site.baseurl}}/docs/apl-10142-HES.pdf){:target="_blank"}{:rel="noopener noreferrer"}
