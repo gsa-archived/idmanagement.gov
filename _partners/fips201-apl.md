@@ -152,7 +152,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of  Approved 13.02 Cloud Topology PACS Products -->
 
-Note: The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
+**Note:** The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
 
 
 ## PACS Readers
